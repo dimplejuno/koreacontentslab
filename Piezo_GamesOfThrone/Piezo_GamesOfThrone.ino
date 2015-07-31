@@ -178,7 +178,7 @@
 
 int sensorPin=6;
 
-int speakerPin=3;
+int speakerPin=8;
 
 void GameOfThrones();
 
