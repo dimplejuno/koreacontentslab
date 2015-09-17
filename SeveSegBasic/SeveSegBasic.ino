@@ -42,9 +42,12 @@ void sevenSegWrite(byte digit) {
 }
 
 void loop() {
-  for (byte count = 10; count > 0; --count) {
+  byte count;
+
+  for (count = 0; count<10 ; count++) {
    delay(1000);
-   sevenSegWrite(count - 1); 
+   sevenSegWrite(count); 
   }
-  delay(4000);
+  
+  delay(5000);
 }
