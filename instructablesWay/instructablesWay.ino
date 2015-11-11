@@ -3,7 +3,7 @@
 // For common anode displays, change the 1's to 0's and 0's to 1's
 // 1 = LED on, 0 = LED off, in this order:
 //                                    Arduino pin: 2,3,4,5,6,7,8
-byte seven_seg_digits[12][7] = { 
+byte seven_seg_digits[][7] = { 
     { 1,1,1,1,1,1,0 },  // = 0
     { 0,1,1,0,0,0,0 },  // = 1
     { 1,1,0,1,1,0,1 },  // = 2
