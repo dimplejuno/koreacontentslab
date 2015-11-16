@@ -137,7 +137,7 @@ MaxMatrix m(data, load, clock, maxInUse); // define module
 byte buffer[10];
 
 // active sentenses
-char string1[] = " Hello, my name is Robot Taekwon V and...        ";
+char string1[] = " Hello, my name is Robot Taekwon V\"s and...        ";
 char string2[] = " I am glad to show you my Arduino scrolling dot Matrix        ";
 char string3[] = " using MAX7219 IC     ";
 char string4[] = " Visit my blog at:     http://arduinobymyself.blogspot.com.br     ";
@@ -146,7 +146,7 @@ char string6[] = " Thanks for watching =)          ";
 
 
 // just for tests
-char string7[] = " A B C D E F G H I J K L M N O P Q R S T U V X W Y Z ";
+char string7[] = " A B C D E F G H I J K L M N O P Q R S T U V X W Y Z "; 
 char string8[] = " a b c d e f g h i j k l m n o p q r s t u v x w y z ";
 char string9[] = " 1 2 3 4 5 6 7 8 9 0 - = ";
 char string10[] = " ! @ # $ % ¨ & * ( ) _ + ";
@@ -177,7 +177,7 @@ void loop(){
   // comment this block when using the 2nd messages block 
  
   printStringWithShift(string1, 100);
-  //printStringWithShift(string2, 100);
+  printStringWithShift(string2, 100);
   //printStringWithShift(string3, 100);
   //printStringWithShift(string4, 100);
   //printStringWithShift(string5, 100);
